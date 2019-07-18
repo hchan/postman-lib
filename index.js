@@ -16,6 +16,7 @@ function getEpochInMillisAsString() {
    return (new Date()).getTime() + "";
 }
 
+if (!module) {module={}}
 module.exports = {
    getMyRandom : getMyRandom,
    getEpochInMillisAsString : getEpochInMillisAsString
